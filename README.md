@@ -13,7 +13,7 @@ The two API endpoints used for this project are the Legacy Pagecounts API and th
 Notice that there are two types of devices provided by the Legacy Pagecounts whreas there three provided by the Pageviews API. However, data from the two mobile-type devices in the Pageviews API is combined together during data processing. In addition, the Pageviews API allows us to select only the user traffic (not spiders/crawlers) by setting the agent filter to 'user' but the Legacy Pagecounts API does not. Thus, data from the Pageviews API endpoint contains only user traffic data but data from the Legacy Pagecounts does not. 
 
 ## Project Details
-There are 3 stages in this project: data acquisition, data processing and data analysis. The code for each section can be found in the [jupyter notebook](hcds-a1-data-curation).
+There are 3 stages in this project: data acquisition, data processing and data analysis. The code for each section can be found in the [jupyter notebook](hcds-a1-data-curation.ipynb).
 ### Data Acquisition
 The data for the project is retrieved from the two API endpoints mentioned above. The raw result for each set of the data per API per device type is saved as json files. Because the Legacy Pagecounts API provides data with two types of devices and the other provides three, there are five json files in total, each with a name convention of 'apiname_devicetype_firstmonth-lastmonth.json'. There is about one year of overlapping between the data provided by the two API endpoints, so data for this year is collected from both sources. 
 
