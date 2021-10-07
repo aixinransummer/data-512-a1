@@ -26,7 +26,7 @@ All data is then combined into a single csv, with all NA values being replaced w
 The final dataset is named as [en-wikipedia_traffic_200712-202109.csv](en-wikipedia_traffic_200712-202109.csv). It contains eight fields: year, month, pagecount_all_views, pagecount_mobile_views, pagecount_desktop_views, pageview_all_views, pageview_mobile_views, pageview_desktop_view.
 
 ### Data Anlysis
-Data is visualized as a time-series graph in this step to show the trend of Wikipedia pageviews over years. There are six columns of pageviews data and each of them is shown with a different color on the graph. Due to the size of the data, the number of pageviews is shown in 10 billions and only the first month of each year is labled on the x ticks. 
+Data is visualized as a time-series graph in this step to show the trend of Wikipedia pageviews over years. There are six columns of pageviews data and each of them is shown with a different color on the graph. Due to the size of the data, the number of pageviews is shown in 10 billions and only the first month of each year is labled on the x ticks. A .png file of the [graph](time_series.png) is stored in the repository. 
 
 ## License & Copyright
 Licensed under the [MIT License](LICENSE)
